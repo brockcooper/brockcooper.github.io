@@ -5,142 +5,150 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name='viewport' content="width=device-width, initial-scale=1">
     <title>Brock Cooper</title>
-    <link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet'>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/custom.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
   </head>
   <body>
     <div class="container">
-
-    <div class="row title-row">
-      <div class="col-md-6 col-centered">
+      <div class="row title-row">
+        <div class="col-md-6 col-centered">
           <img class= 'img-responsive brock-photo' src="images/brocks_photo.png" alt="Brock's Photo">
+        </div>
+        <div class="text-right text-uppercase col-md-6">
+          <h1 class='name-title thin'>Brock Cooper</h1>
+          <h4 class="dark-grey job-title">Software Developer</h4>
+        </div>
       </div>
-      <div class="text-right text-uppercase col-md-6">
-        <h1 class='name-title thin'>Brock Cooper</h1>
-        <h4 class="dark-grey job-title">Software Developer</h4>
+      <div class="row">
+        <div class="col-md-12">
+          <hr class='header-hr'>
+        </div>
       </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-12">
-        <hr>
-      </div> 
-    </div>
-
-    <div class="row">
-      <div class="col-md-12">
-        <img class= 'img-responsive' src="images/brock_jumping.jpg" alt="Main Photo">
+      <div class="row">
+        <div class="col-md-12">
+          <img class= 'img-responsive' src="images/brock_jumping.jpg" alt="Main Photo">
+        </div>
       </div>
-    </div>
-
-    <div class="row dark-grey">
-      <div class="col-md-12">
-        <h2 class='featured-title'>Featured Work</h2>
+      <div class="row dark-grey">
+        <div class="col-md-12">
+          <h2 class='featured-title'>Featured Work</h2>
+        </div>
       </div>
-    </div>
-
-    <div class="row text-center projects">
-      <div class="col-md-4">
-        <a href='' data-toggle="modal" data-target="#project1">
+      <div class="row text-center projects">
+        <div class="col-md-4">
+          <a href='' data-toggle="modal" data-target="#project1">
           <img class= 'img-responsive center-block' src="images/blackjack_screenshot.png" alt="Project 1">
-        </a>
-        <h3 class="text-uppercase">Blackjack</h3>
-        <p class="dark-grey">Blackjack web application made with Ruby, Sinatra, and Ajax</p>
+          </a>
+          <h3 class="text-uppercase">Blackjack</h3>
+          <p class="dark-grey">Blackjack web application made with Ruby, Sinatra, and Ajax</p>
+        </div>
+        <div class="col-md-4">
+          <a href='' data-toggle="modal" data-target="#project2"><img class= 'img-responsive center-block' src="images/open_todo_screenshot.png" alt="Project 2"></a>
+          <h3 class="text-uppercase">Open Todo</h3>
+          <p class="dark-grey">To-do web application made with Ruby on Rails and jQuery</p>
+        </div>
+        <div class="col-md-4">
+          <a href='' data-toggle="modal" data-target="#project3">
+          <img class= 'img-responsive center-block' src="http://placehold.it/1200x800" alt="Project 3">
+          </a>
+          <h3 class="text-uppercase">Project 3</h3>
+          <p class="dark-grey">Something about Project 3</p>
+        </div>
       </div>
-      <div class="col-md-4">
-        <a href='' data-toggle="modal" data-target="#project2" alt="Project 2"><img class= 'img-responsive center-block' src="images/open_todo_screenshot.png" alt="Project 2"></a>
-        <h3 class="text-uppercase">Open Todo</h3>
-        <p class="dark-grey">To-do web application made with Ruby on Rails and jQuery</p>
-      </div>
-      <div class="col-md-4">
-      <a href='' data-toggle="modal" data-target="#project3">
-        <img class= 'img-responsive center-block' src="http://placehold.it/1200x800" alt="Project 3">
-      </a>
-              <h3 class="text-uppercase">Project 3</h3>
-        <p class="dark-grey">Something about Project 3</p>
-      </div>
-    </div>
-
-    <!-- Modal 1-->
-    <div class="modal fade projects" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h3 class="modal-title" id="myModalLabel">Blackjack</h4>
-          </div>
-          <div class="modal-body text-center">
-            <img class="img-responsive center-block" src="images/blackjack_screenshot.png">
-            <p class="dark-grey">Blackjack web application made with Ruby, Sinatra, and Ajax. This was my first experience using Sinatra or Ajax. I was provided the images of the cards but developed the logic and flow of the game myself. This was a very fun application to make and it taught me a lot about HTTP requests.</p>
-            <div class='row'>
-              <div class="col-md-12">
-                <a href='https://github.com/brockcooper/blackjack_online' target="_blank"><img class="pull-left icons" src="images/github_icon.png"></a>
-                <a href='http://evening-river-8201.herokuapp.com/' target="_blank"><img class="pull-left icons" src="images/heroku_icon.png"></a>
+      <!-- Modal 1-->
+      <div class="modal fade projects" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title" id="myModalLabel1">
+                Blackjack
+              </h3>
+            </div>
+            <div class="modal-body text-center">
+              <img class="img-responsive center-block" src="images/blackjack_screenshot.png" alt='Project1'>
+              <p class="dark-grey modal-p">Blackjack web application made with Ruby, Sinatra, and Ajax. This was my first experience using Sinatra or Ajax. I was provided the images of the cards but developed the logic and flow of the game myself. This was a very fun application to make and it taught me a lot about HTTP requests.</p>
+              <div class='row'>
+                <div class="col-md-12">
+                  <a href='https://github.com/brockcooper/blackjack_online' target="_blank"><img class="pull-left icons" src="images/github_icon.png" alt='github-icon'></a>
+                  <a href='http://evening-river-8201.herokuapp.com/' target="_blank" ><img class="pull-left icons" src="images/heroku_icon.png" alt='heroku-icon'></a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-
-    <!-- Modal 2-->
-    <div class="modal fade projects" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h3 class="modal-title" id="myModalLabel">Open Todo</h4>
-          </div>
-          <div class="modal-body text-center">
-            <img class="img-responsive center-block" src="images/open_todo_screenshot.png">
-            <p class="dark-grey">
-              To-do web application made with Ruby on Rails and jQuery. This was the first Ruby on Rails application I made outside of a tutorial. I was given the user stories but created the layout and functionality of the application myself. This was just a simple application to increase my understanding of Rails.
-            </p>
-            <p class="dark-grey">
-              My favorite about the project was learning to write rake tasks. I wrote a rake task (rake todo:delete_items) that will delete any tasks that have been open for 7 days, the idea being that any to-do tasks open for more than a week are not likely to ever get done. I used the Scheduler add-on in Heroku to run the rake task on a daily basis.
-            </p>
-            <div class='row'>
-              <div class="col-md-12">
-                <a href='https://github.com/brockcooper/bloccitoff' target="_blank"><img class="pull-left icons" src="images/github_icon.png"></a>
-                <a href='https://pacific-shore-4000.herokuapp.com/' target="_blank"><img class="pull-left icons" src="images/heroku_icon.png"></a>
+      <!-- Modal 2-->
+      <div class="modal fade projects" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title" id="myModalLabel2">
+                Open Todo
+              </h3>
+            </div>
+            <div class="modal-body text-center">
+              <img class="img-responsive center-block" src="images/open_todo_screenshot.png" alt='open-todo-screenshot'>
+              <p class="dark-grey modal-p">
+                To-do web application made with Ruby on Rails and jQuery. This was the first Ruby on Rails application I made outside of a tutorial. I was given the user stories but created the layout and functionality of the application myself. This was just a simple application to increase my understanding of Rails.
+              </p>
+              <p class="dark-grey modal-p">
+                My favorite about the project was learning to write rake tasks. I wrote a rake task (rake todo:delete_items) that will delete any tasks that have been open for 7 days, the idea being that any to-do tasks open for more than a week are not likely to ever get done. I used the Scheduler add-on in Heroku to run the rake task on a daily basis.
+              </p>
+              <div class='row'>
+                <div class="col-md-12">
+                  <a href='https://github.com/brockcooper/bloccitoff' target="_blank" ><img class="pull-left icons" src="images/github_icon.png" alt='github-icon'></a>
+                  <a href='https://pacific-shore-4000.herokuapp.com/' target="_blank"><img class="pull-left icons" src="images/heroku_icon.png" alt='heroku-icon'></a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-
-    <!-- Modal 3-->
-    <div class="modal fade projects" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h3 class="modal-title" id="myModalLabel">Project 3</h4>
-          </div>
-          <div class="modal-body text-center">
-            <img class="img-responsive center-block" src="http://placehold.it/1200x800">
-            <p class="dark-grey">Something about Project 3</p>
-            <div class='row'>
-              <div class="col-md-12">
-                <a href='https://github.com/brockcooper/blackjack_online' target="_blank"><img class="pull-left icons" src="images/github_icon.png"></a>
-                <a href='http://evening-river-8201.herokuapp.com/' target="_blank"><img class="pull-left icons" src="images/heroku_icon.png"></a>
+      <!-- Modal 3-->
+      <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title" id="myModalLabel3">
+                Project 3
+              </h3>
+            </div>
+            <div class="modal-body text-center">
+              <img class="img-responsive center-block" src="http://placehold.it/1200x800" alt='Project3'>
+              <p class="dark-grey modal-p">Something about Project 3</p>
+              <div class='row'>
+                <div class="col-md-12">
+                  <a href='https://github.com/brockcooper/blackjack_online' target="_blank"><img class="pull-left icons" src="images/github_icon.png" alt='github-icon'></a>
+                  <a href='http://evening-river-8201.herokuapp.com/' target="_blank"><img class="pull-left icons" src="images/heroku_icon.png" alt='heroku-icon'></a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-
+      <footer>
+        <hr>
+        <div class='row'>
+          <div class="col-md-10">
+            &copy; Brock Cooper 2015
+          </div>
+          <div class="col-md-2">
+            <a href='https://www.linkedin.com/in/brockcooper' target="_blank" ><img src='images/linkedin-icon.png' class='linkedin' alt="LinkedIn-Icon"></a>
+          </div>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
