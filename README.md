@@ -1,4 +1,4 @@
 # iambrockcooper
 Repo for my personal website
 
-[iambrockcooper.com](iambrockcooper.com)
+[iambrockcooper.com](http://www.iambrockcooper.com)
